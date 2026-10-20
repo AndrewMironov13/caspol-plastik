@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Литьевой пластик CASPOL — подберём под вашу задачу</title>
+<meta name="robots" content="noindex, nofollow">
+<meta name="description" content="Литьевой полиуретановый пластик CASPOL для силиконовых форм: выберите, что льёте, — подскажем систему, время на заливку и цену">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='16' fill='%230492C4'/%3E%3Cpath d='M16 7c-3 4.5-6 8-6 11.5a6 6 0 0 0 12 0C22 15 19 11.5 16 7z' fill='%23fff'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geologica:wght@400;500;600;700;800&display=swap">
+<style>
+:root{
+  --bg:#F1F4F6; --surface:#FFFFFF; --ink:#0E1A22; --muted:#56626C; --line:#DCE3E8;
+  --blue:#0378A3; --blue-2:#0492C4; --tint:#E4F2F8; --ring:#0492C4;
+  --f:"Geologica","Segoe UI",system-ui,sans-serif;
+  --r-pill:999px; --r-card:28px; --r-tile:20px;
+  --shadow:0 1px 2px rgba(14,26,34,.06), 0 18px 48px -24px rgba(14,26,34,.28);
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font-family:var(--f);font-size:17px;line-height:1.45;-webkit-font-smoothing:antialiased;font-variant-numeric:tabular-nums}
+a{color:inherit}
+button{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--ring);outline-offset:3px}
+.wrap{max-width:1280px;margin:0 auto;padding-left:max(24px, env(safe-area-inset-left, 0px));padding-right:max(24px, env(safe-area-inset-right, 0px))}
+
+/* шапка: только пилюли */
+header{padding-top:22px;display:flex;align-items:center;gap:12px}
+.pill{display:inline-flex;align-items:center;gap:10px;min-height:52px;padding:0 24px;border-radius:var(--r-pill);background:var(--surface);border:1px solid var(--line);font-weight:600;font-size:17px;text-decoration:none;white-space:nowrap}
+.pill.logo{padding:0 22px}
+.pill.logo img{height:24px;width:auto;display:block}
+.pill.tel{margin-left:auto}
+.pill.tel svg{width:18px;height:18px}
+.pill.cta{background:var(--blue);border-color:var(--blue);color:#fff}
+.cta-short{display:none}
+
+/* главный экран */
+.hero{display:grid;grid-template-columns:minmax(0,1.04fr) minmax(0,.96fr);gap:56px;align-items:start;padding-top:44px}
+h1{margin:0;font-weight:800;font-size:clamp(52px,7.4vw,108px);line-height:.96;letter-spacing:-.035em}
+.lead{margin:22px 0 0;font-size:22px;line-height:1.35;color:var(--muted);max-width:30ch}
+.lead b{color:var(--ink);font-weight:600}
+.q{margin:44px 0 16px;font-size:15px;font-weight:600;letter-spacing:.02em;color:var(--muted)}
+.q span{color:var(--ink);font-size:20px;letter-spacing:0;margin-right:8px}
+.tiles{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.tile{all:unset;box-sizing:border-box;cursor:pointer;display:flex;flex-direction:column;background:var(--surface);border-radius:var(--r-tile);overflow:hidden;box-shadow:0 0 0 1px var(--line);transition:box-shadow .2s ease, transform .2s ease}
+.tile:hover{transform:translateY(-2px)}
+.tile .ph{aspect-ratio:1/1;overflow:hidden;position:relative;background:#E6EAED}
+.tile .ph img{width:100%;height:100%;object-fit:cover;display:block;filter:saturate(.92) contrast(1.02)}
+.tile .lb{padding:14px 16px 16px;font-weight:600;font-size:18px;line-height:1.2;display:flex;align-items:center;justify-content:space-between;gap:8px}
+.tile .ck{width:24px;height:24px;border-radius:50%;border:2px solid var(--line);flex:none;display:grid;place-items:center;transition:all .2s ease}
+.tile .ck svg{width:12px;height:12px;opacity:0}
+.tile[aria-pressed="true"]{box-shadow:0 0 0 2px var(--ring), var(--shadow)}
+.tile[aria-pressed="true"] .ck{background:var(--ring);border-color:var(--ring)}
+.tile[aria-pressed="true"] .ck svg{opacity:1}
+.tile:focus-visible{outline:2px solid var(--ring);outline-offset:3px}
+
+/* карточка результата */
+.card{background:var(--surface);border-radius:var(--r-card);box-shadow:var(--shadow);padding:26px;display:flex;flex-direction:column;gap:20px}
+.card-top{display:grid;grid-template-columns:200px minmax(0,1fr);gap:24px;align-items:start}
+.media{aspect-ratio:3/4;border-radius:18px;overflow:hidden;background:#D5DADF}
+.media video{width:100%;height:100%;object-fit:cover;display:block}
+.kicker{font-size:14px;font-weight:600;color:var(--muted);letter-spacing:.02em}
+.name{margin:6px 0 0;font-weight:800;font-size:52px;line-height:1;letter-spacing:-.03em;display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+.name small{font-size:15px;font-weight:600;letter-spacing:0;color:var(--blue);background:var(--tint);border-radius:var(--r-pill);padding:5px 12px;transform:translateY(-8px)}
+.why{margin:10px 0 0;font-size:17px;color:var(--muted);text-wrap:balance}
+.facts{list-style:none;margin:20px 0 0;padding:0;display:flex;flex-direction:column;gap:12px}
+.facts li{display:flex;align-items:center;gap:12px;font-size:18px;font-weight:500;text-wrap:balance}
+.facts b{font-weight:700}
+.ic{width:36px;height:36px;border-radius:12px;background:var(--bg);display:grid;place-items:center;flex:none}
+.ic svg{width:19px;height:19px;stroke:var(--ink)}
+.sw{width:18px;height:18px;border-radius:50%;box-shadow:inset 0 0 0 1px rgba(14,26,34,.18)}
+.note{margin:12px 0 0;font-size:14px;color:var(--blue);min-height:0}
+.note:empty{display:none}
+.tweaks{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.tweaks .t-l{font-size:14px;color:var(--muted);margin-right:2px}
+.tg{all:unset;box-sizing:border-box;cursor:pointer;display:inline-flex;align-items:center;gap:10px;min-height:44px;padding:0 16px 0 10px;border-radius:var(--r-pill);border:1px solid var(--line);font-size:16px;font-weight:500;transition:all .2s ease}
+.tg i{width:34px;height:20px;border-radius:999px;background:var(--line);position:relative;transition:background .2s ease}
+.tg i::after{content:"";position:absolute;top:3px;left:3px;width:14px;height:14px;border-radius:50%;background:#fff;box-shadow:0 1px 2px rgba(0,0,0,.2);transition:transform .2s ease}
+.tg[aria-pressed="true"]{border-color:var(--ring);background:var(--tint)}
+.tg[aria-pressed="true"] i{background:var(--ring)}
+.tg[aria-pressed="true"] i::after{transform:translateX(14px)}
+.tg:focus-visible{outline:2px solid var(--ring);outline-offset:3px}
+.buy{display:flex;align-items:center;gap:16px;flex-wrap:wrap;border-top:1px solid var(--line);padding-top:20px}
+.price{display:flex;flex-direction:column;margin-right:auto}
+.price b{font-size:34px;font-weight:800;letter-spacing:-.02em;line-height:1.05}
+.price span{font-size:15px;color:var(--muted)}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:56px;padding:0 34px;border-radius:var(--r-pill);background:var(--blue);color:#fff;font-weight:600;font-size:18px;text-decoration:none;border:0;cursor:pointer}
+.more{all:unset;cursor:pointer;font-size:15px;font-weight:500;color:var(--blue);display:inline-flex;align-items:center;gap:6px;min-height:44px}
+.more svg{width:14px;height:14px;transition:transform .2s ease}
+.more[aria-expanded="true"] svg{transform:rotate(180deg)}
+.more:focus-visible{outline:2px solid var(--ring);outline-offset:3px;border-radius:6px}
+.specs{display:grid;grid-template-columns:minmax(0,1fr) 92px;gap:18px;background:var(--bg);border-radius:18px;padding:18px}
+.specs[hidden]{display:none}
+.specs dl{margin:0;display:grid;grid-template-columns:auto minmax(0,1fr);gap:8px 16px;font-size:15px}
+.specs dt{color:var(--muted)}
+.specs dd{margin:0;font-weight:600}
+.specs a{display:block;text-decoration:none;font-size:13px;color:var(--muted);text-align:center}
+.specs a img{width:92px;border-radius:6px;box-shadow:0 6px 18px rgba(14,26,34,.18);display:block;margin-bottom:6px}
+
+/* почему мы */
+.why-us{margin-top:40px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;padding-bottom:40px}
+.why-us div{display:flex;align-items:center;gap:14px;padding:18px 20px;border-radius:20px;background:rgba(255,255,255,.6);box-shadow:0 0 0 1px var(--line)}
+.why-us .ic{background:var(--tint)}
+.why-us .ic svg{stroke:var(--blue)}
+.why-us b{display:block;font-size:18px;font-weight:700}
+.why-us span{display:block;font-size:15px;color:var(--muted)}
+
+.fade{animation:fade .35s ease both}
+@keyframes fade{from{opacity:.25;transform:translateY(4px)}to{opacity:1;transform:none}}
+
+@media (max-width:1100px){
+  .hero{grid-template-columns:1fr;gap:28px}
+  .lead{max-width:none}
+}
+@media (max-width:640px){
+  body{font-size:16px}
+  .wrap{padding-left:max(16px, env(safe-area-inset-left, 0px));padding-right:max(16px, env(safe-area-inset-right, 0px))}
+  header{padding-top:12px;gap:8px}
+  header{gap:8px}
+  .pill{min-height:46px;height:46px;padding:0 18px;font-size:15px;flex:none}
+  .pill.logo{padding:0 15px}
+  .pill.logo img{height:18px}
+  .pill.tel{padding:0;width:46px;border-radius:50%;justify-content:center;gap:0}
+  .pill.tel svg{width:20px;height:20px}
+  .pill.tel span{display:none}
+  .pill.cta{padding:0 18px}
+  .hero{padding-top:24px;gap:22px}
+  h1{font-size:50px}
+  .lead{font-size:17px;margin-top:14px}
+  .q{margin:26px 0 12px}
+  .q span{font-size:18px}
+  .tiles{gap:10px}
+  .tile{border-radius:16px}
+  .tile{position:relative}
+  .tile .lb{padding:10px 10px 12px;font-size:14px;align-items:flex-start}
+  .tile .ck{position:absolute;top:8px;right:8px;width:24px;height:24px;background:rgba(255,255,255,.9);border-color:rgba(14,26,34,.15)}
+  .card{padding:16px;border-radius:24px;gap:16px}
+  .card-top{grid-template-columns:118px minmax(0,1fr);gap:14px}
+  .media{border-radius:14px}
+  .name{font-size:38px}
+  .name small{font-size:13px;transform:translateY(-5px)}
+  .why{font-size:15px;margin-top:6px}
+  .facts{margin-top:12px;gap:8px}
+  .facts li{font-size:15px;gap:8px}
+  .ic{width:28px;height:28px;border-radius:9px}
+  .ic svg{width:15px;height:15px}
+  .tweaks .t-l{width:100%}
+  .tg{font-size:15px}
+  .price b{font-size:28px}
+  .btn{width:100%}
+  .why-us{grid-template-columns:1fr;margin-top:24px;gap:10px}
+  .why-us div{padding:14px 16px}
+}
+@media (max-width:360px){
+  .cta-long{display:none}.cta-short{display:inline}
+  .q{font-size:0}.q span{font-size:18px}
+  h1{font-size:44px}
+  .card-top{grid-template-columns:96px minmax(0,1fr)}
+  .name{font-size:32px}
+  .tile .lb{font-size:13px}
+}
+.toast{position:fixed;left:50%;bottom:max(20px, env(safe-area-inset-bottom, 0px));transform:translate(-50%,20px);opacity:0;pointer-events:none;background:var(--ink);color:#fff;border-radius:999px;padding:12px 20px;font-size:15px;font-weight:500;box-shadow:var(--shadow);transition:all .25s ease;max-width:calc(100vw - 32px);text-align:center;z-index:10}
+.toast.on{opacity:1;transform:translate(-50%,0)}
+@media (prefers-reduced-motion: reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <a class="pill logo" href="#top" aria-label="CASPOL"><img src="assets/img/logo-caspol.svg" alt="CASPOL"></a>
+    <a class="pill tel" href="tel:+79535618775" aria-label="Позвонить +7 953 561-87-75"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg><span>+7&nbsp;953&nbsp;561-87-75</span></a>
+    <a class="pill cta" href="#order"><span class="cta-long">Получить&nbsp;прайс</span><span class="cta-short">Прайс</span></a>
+  </header>
+
+  <main class="hero" id="top">
+    <section aria-labelledby="h1">
+      <h1 id="h1">Литьевой пластик</h1>
+      <p class="lead">Залили в силиконовую форму — через <b>10–40 минут</b> твёрдая деталь</p>
+
+      <p class="q" id="q"><span>Что вы льёте?</span>подскажем пластик</p>
+      <div class="tiles" role="group" aria-labelledby="q">
+        <button class="tile" type="button" data-task="decor" aria-pressed="true">
+          <span class="ph"><img src="assets/img/photo-flower.jpg" alt="Декоративный цветок из литьевого пластика"></span>
+          <span class="lb">Декор и&nbsp;фигуры<span class="ck"><svg viewBox="0 0 12 12" fill="none" stroke="#fff" stroke-width="2" aria-hidden="true"><path d="M2.5 6.2 5 8.5l4.5-5"/></svg></span></span>
+        </button>
+        <button class="tile" type="button" data-task="hollow" aria-pressed="false">
+          <span class="ph"><img src="assets/img/photo-bird.jpg" alt="Полое кашпо-птичка из литьевого пластика"></span>
+          <span class="lb">Полые изделия<span class="ck"><svg viewBox="0 0 12 12" fill="none" stroke="#fff" stroke-width="2" aria-hidden="true"><path d="M2.5 6.2 5 8.5l4.5-5"/></svg></span></span>
+        </button>
+        <button class="tile" type="button" data-task="models" aria-pressed="false">
+          <span class="ph"><img src="assets/img/still-cured.jpg" alt="Белые заготовки в силиконовых формах" style="object-position:55% 96%"></span>
+          <span class="lb">Детали под обработку<span class="ck"><svg viewBox="0 0 12 12" fill="none" stroke="#fff" stroke-width="2" aria-hidden="true"><path d="M2.5 6.2 5 8.5l4.5-5"/></svg></span></span>
+        </button>
+      </div>
+    </section>
+
+    <aside class="card" aria-live="polite" aria-label="Подобранный пластик">
+      <div class="card-top">
+        <div class="media"><video id="vid" muted loop playsinline preload="metadata" poster="assets/video/demould.jpg" src="assets/video/demould.mp4"></video></div>
+        <div id="info">
+          <div class="kicker">Вам подойдёт</div>
+          <div class="name"><span id="nm">ONE</span></div>
+          <p class="why" id="why">Прощает небольшую неточность налива</p>
+          <ul class="facts">
+            <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2M9 2h6"/></svg></span><span><b id="pot">3–4&nbsp;минуты</b>, чтобы залить</span></li>
+            <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 21h10M8 21V9a4 4 0 0 1 8 0v12M8 13h8"/></svg></span><span>Достаёте через <b id="out">15–20&nbsp;минут</b></span></li>
+            <li id="colorRow"><span class="ic"><span class="sw" id="sw" style="background:#EFE3C8"></span></span><span id="col">Светло-бежевая отливка</span></li>
+          </ul>
+          <p class="note" id="note"></p>
+        </div>
+      </div>
+
+      <div class="tweaks" id="tweaks">
+        <button class="tg" type="button" data-tg="white" aria-pressed="false"><i aria-hidden="true"></i>Нужна белая</button>
+        <button class="tg" type="button" data-tg="time" aria-pressed="false"><i aria-hidden="true"></i>Больше времени на&nbsp;заливку</button>
+      </div>
+
+      <div class="buy">
+        <div class="price"><b id="pr">от&nbsp;5&nbsp;700&nbsp;₽</b><span id="pk">комплект 3+3&nbsp;кг</span></div>
+        <a class="btn" href="#order">Заказать</a>
+      </div>
+      <button class="more" type="button" id="more" aria-expanded="false" aria-controls="specs">Характеристики и техничка<svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="m3 5 4 4 4-4"/></svg></button>
+      <div class="specs" id="specs" hidden>
+        <dl>
+          <dt>Твёрдость</dt><dd id="sp-sh">Шор D 72–82</dd>
+          <dt>Пропорция А:Б</dt><dd id="sp-ra">1:1 по массе и объёму</dd>
+          <dt>Полная прочность</dt><dd>через 24–48 часов</dd>
+        </dl>
+        <a id="sp-tds" href="tds/one-3-4.pdf" target="_blank" rel="noopener"><img id="sp-img" src="assets/img/tds-one-3-4.jpg" alt="Первая страница технички"><span id="sp-pg">PDF · 4 стр</span></a>
+      </div>
+    </aside>
+  </main>
+
+  <section class="why-us" aria-label="Почему CASPOL">
+    <div><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21V10l5 3V10l5 3V6l8 4v11z"/></svg></span><p style="margin:0"><b>Производим сами</b><span>в Дзержинске</span></p></div>
+    <div><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h16M4 12h10M4 17h6"/></svg></span><p style="margin:0"><b>от 800&nbsp;₽ за&nbsp;кг</b><span>на комплекте 20+20&nbsp;кг</span></p></div>
+    <div><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 3h7l4 4v14H7zM14 3v4h4M10 12h5M10 16h5"/></svg></span><p style="margin:0"><b>Подберём под вашу форму</b><span>и пришлём техничку</span></p></div>
+  </section>
+  <span id="order"></span>
+<div class="toast" id="toast" role="status" aria-live="polite">Форма заявки появится в полной версии сайта</div>
+</div>
+
+<script>
+(function(){
+  var V = 'assets/video/', I = 'assets/img/', T = 'tds/';
+  var SYS = {
+    one3:{n:'ONE', fam:'1:1', why:'Прощает небольшую неточность налива', pot:'3–4\u00A0минуты', out:'15–20\u00A0минут', col:'Светло-бежевая отливка', sw:'#EFE3C8', pr:'5 700', pk:'3+3', vid:'demould', sh:'Шор D 72–82', ra:'1:1 по массе и объёму', tds:'one-3-4', pg:4},
+    one5:{n:'ONE', fam:'1:1', why:'Прощает небольшую неточность налива', pot:'5–6\u00A0минут', out:'30–40\u00A0минут', col:'Светло-бежевая отливка', sw:'#EFE3C8', pr:'5 700', pk:'3+3', vid:'curing', sh:'Шор D 72–82', ra:'1:1 по массе и объёму', tds:'one-5-6', pg:4},
+    neo: {n:'NEO', fam:'1:1', why:'Белая отливка без резкого запаха', pot:'3–4\u00A0минуты', out:'20–25\u00A0минут', col:'Белая отливка', sw:'#FFFFFF', pr:'5 700', pk:'3+3', vid:'pour-neo', sh:'Шор D 72–82', ra:'1:1 по массе', tds:'neo', pg:4},
+    ten: {n:'TEN', fam:'1:1', why:'Полые фигуры без вакуумной дегазации', pot:'3–4\u00A0минуты', out:'10–20\u00A0минут', col:'Белая отливка', sw:'#FFFFFF', pr:'5 700', pk:'3+3', vid:'pour', sh:'Шор D 70', ra:'1:1 (50:50)', tds:'ten', pg:2},
+    m1100:{n:'1100', fam:'60:40', why:'Модели и детали под механическую обработку', pot:'2,5–3,5\u00A0минуты', out:'20–30\u00A0минут', col:'Для дозирующих машин низкого давления', sw:null, pr:'4 750', pk:'3+2', vid:'a-1100', sh:'уточним', ra:'3:2, то есть 60:40', tds:'1100', pg:2}
+  };
+  var state = {task:'decor', white:false, time:false};
+  function pick(){
+    var t = state.task, w = state.white, tm = state.time, note = '';
+    if (t === 'models') return {s:SYS.m1100, note:''};
+    if (t === 'hollow'){
+      if (tm) note = 'Для полых изделий дольше 4 минут подберём вместе';
+      return {s:SYS.ten, note:note};
+    }
+    if (w && tm) return {s:SYS.neo, note:'Белые системы — 3–4 минуты на заливку'};
+    if (w) return {s:SYS.neo, note:''};
+    if (tm) return {s:SYS.one5, note:''};
+    return {s:SYS.one3, note:''};
+  }
+  var $ = function(id){ return document.getElementById(id); };
+  var vid = $('vid'), info = $('info');
+  function render(){
+    var r = pick(), s = r.s;
+    $('nm').textContent = s.n; $('why').textContent = s.why;
+    $('pot').textContent = s.pot; $('out').textContent = s.out; $('col').textContent = s.col;
+    var sw = $('sw');
+    if (s.sw){ sw.style.display = ''; sw.style.background = s.sw; } else { sw.style.display = 'none'; }
+    $('note').textContent = r.note;
+    $('pr').textContent = 'от ' + s.pr.replace(' ', ' ') + ' ₽';
+    $('pk').textContent = 'комплект ' + s.pk + ' кг';
+    $('sp-sh').textContent = s.sh; $('sp-ra').textContent = s.ra;
+    $('sp-tds').href = T + s.tds + '.pdf'; $('sp-img').src = I + 'tds-' + s.tds + '.jpg'; $('sp-pg').textContent = 'PDF · ' + s.pg + ' стр';
+    $('tweaks').style.display = state.task === 'models' ? 'none' : '';
+    var src = V + s.vid + '.mp4';
+    if (vid.getAttribute('src') !== src){ vid.poster = V + s.vid + '.jpg'; vid.src = src; if (visible) { var p = vid.play(); if (p && p.catch) p.catch(function(){}); } }
+    info.classList.remove('fade'); void info.offsetWidth; info.classList.add('fade');
+  }
+  document.querySelectorAll('.tile').forEach(function(b){
+    b.addEventListener('click', function(){
+      document.querySelectorAll('.tile').forEach(function(x){ x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
+      state.task = b.dataset.task; render();
+    });
+  });
+  document.querySelectorAll('.tg').forEach(function(b){
+    b.addEventListener('click', function(){
+      var on = b.getAttribute('aria-pressed') !== 'true'; b.setAttribute('aria-pressed', on ? 'true' : 'false');
+      state[b.dataset.tg] = on; render();
+    });
+  });
+  $('more').addEventListener('click', function(){
+    var open = this.getAttribute('aria-expanded') !== 'true';
+    this.setAttribute('aria-expanded', open ? 'true' : 'false'); $('specs').hidden = !open;
+  });
+  var toast = $('toast'), tt;
+  document.querySelectorAll('a[href="#order"]').forEach(function(a){
+    a.addEventListener('click', function(e){ e.preventDefault(); toast.classList.add('on'); clearTimeout(tt); tt = setTimeout(function(){ toast.classList.remove('on'); }, 2600); });
+  });
+  var reduce = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches, visible = false;
+  if (!reduce && 'IntersectionObserver' in window){
+    new IntersectionObserver(function(es){ es.forEach(function(e){ visible = e.isIntersecting; if (visible){ var p = vid.play(); if (p && p.catch) p.catch(function(){}); } else vid.pause(); }); }, {threshold:.2}).observe(vid);
+  }
+})();
+</script>
+</body>
+</html>
